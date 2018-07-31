@@ -29,6 +29,7 @@ namespace CastleWindsor.Test.cwBootstrapContainer
 
         public static T ResolveMouse<T>()
         {
+
             return container.Resolve<T>();
         }
     }
